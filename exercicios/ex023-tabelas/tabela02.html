@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 70vw;
+            border-collapse: collapse;
+            position: relative;
+        }
+        
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td, th{
+           border: 1px solid black; 
+           padding: 5px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #383838;
+            color: white;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color:lightgray;;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        ANATOMIS PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH  
+
+    -->
+    <table>
+        <caption>População das Unidades federais</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 4vw;">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col" style="width: 5vw;">% da População total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1	 
+                <td> São Paulo			
+                <td> 46.024.937		
+                <td> 22,2%
+            </tr>	
+            <tr>
+                <td> 2	 
+                <td> Minas Gerais			
+                <td> 20.732.660		
+                <td> 10,0%
+            </tr>
+            <tr>
+                <td> 3	 
+                <td> Rio de Janeiro			
+                <td> 16.615.526		
+                <td> 8,0%	
+            </tr>
+            <tr>
+                <td> 4	 
+                <td> Bahia				
+                <td> 14.659.023		
+                <td> 7,1%	
+            </tr>
+            <tr>
+                <td> 5	
+                <td> Paraná			
+                <td> 11.835.379		
+                <td> 5,7%	
+            </tr>
+            <tr>
+                <td> 6	 
+                <td> Rio Grande do Sul		
+                <td> 11.088.065		
+                <td> 5,3%	 
+            </tr>
+            <tr>
+                <td> 7	 
+                <td> Pernambuco    			
+                <td> 9.051.113		
+                <td> 4,4%
+            </tr>	 
+            <tr>
+                <td> 8	 
+                <td> Ceará				
+                <td> 8.936.431		
+                <td> 4,3%
+            </tr>	
+            <tr>
+                <td> 9	 
+                <td> Pará			
+                <td> 8.442.962		
+                <td> 4,1%	
+            </tr>
+            <tr>
+                <td> 10	 
+                <td> Santa Catarina			
+                <td> 7.762.154		
+                <td> 3,7%
+            </tr>	 
+            <tr>
+                <td> 11	 
+                <td> Goiás			
+                <td> 6.950.976	
+                <td> 3,3%
+            </tr>	
+            <tr>
+                <td> 12	 
+                <td> Maranhão			
+                <td> 6.800.605		
+                <td> 3,3%
+            </tr>	
+            <tr>
+                <td> 13	 
+                <td> Espírito Santo			
+                <td> 4.108.508		
+                <td> 1,9%
+            </tr>
+            <tr>
+                <td> 14	 
+                <td> Paraíba			
+                <td> 4.030.961		
+                <td> 1,9%	
+            </tr> 
+            <tr>
+                <td> 15	 
+                <td> Amazonas			
+                <td> 3.952.262		
+                <td> 1,9%
+            </tr>	
+            <tr>
+                <td> 16	 
+                <td> Mato Grosso			
+                <td> 3.784.239		
+                <td> 1,8%	
+            </tr>
+            <tr>
+                <td> 17	 
+                <td> Rio Grande do Norte		
+                <td> 3.303.953		
+                <td> 1,6%	
+            </tr>
+            <tr>
+                <td> 18	 
+                <td> Piauí				
+                <td> 3.270.174		
+                <td> 1,6%
+            </tr>	
+            <tr>
+                <td> 19	 
+                <td> Alagoas			
+                <td> 3.125.254		
+                <td> 1,5%
+            </tr>	
+            <tr>
+                <td> 20	 
+                <td> Distrito Federal		
+                <td> 2.923.369		
+                <td> 1,4%
+            </tr>	
+            <tr>
+                <td> 21	 
+                <td> Mato Grosso do Sul		
+                <td> 2.833.742		
+                <td> 1,4%	
+            </tr>
+            <tr>
+                <td> 22	
+                <td> Sergipe			
+                <td> 2.211.868		
+                <td> 1,1%
+            </tr>	
+            <tr>
+                <td> 23	 
+                <td> Rondônia			
+                <td> 1.616.379		
+                <td> 0,8% 
+            </tr>
+            <tr>
+                <td> 24	 
+                <td> Tocantins			
+                <td> 1.584.306		
+                <td> 0,8%
+            </tr>	
+            <tr>
+                <td> 25	 
+                <td> Acre				  
+                <td> 829.780		
+                <td> 0,4%
+            </tr>	
+            <tr>
+                <td> 26	 
+                <td> Amapá				  
+                <td> 774.268		
+                <td> 0,4%
+            </tr>	
+            <tr>
+                <td> 27	 
+                <td> Roraima			  
+                <td> 634.805		
+                <td> 0,3%
+            </tr>	
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total de Habitantes</th>
+                <td>207.750.291</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
